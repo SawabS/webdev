@@ -50,7 +50,7 @@ The goal of this project is to design and develop a simple and functional websit
 
 ## 🔐 Private Access
 
-Since this repository is private, only the project members (you, your classmate, and your lecturer) have access. If there are any issues or changes needed, feel free to reach out via our communication channels (e.g., email, class forum).
+Since this repository is private, only the project members have access. If there are any issues or changes needed, feel free to reach out via our communication channels (e.g., email, class forum).
 
 ---
 
