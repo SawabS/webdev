@@ -16,12 +16,18 @@ The goal of this project is to design and develop a simple and functional websit
 
 ## 📂 Repository Structure
 
-- **/img**: Folder containing image assets for the website.
-- **about.html**: About page of the website.
-- **contact.html**: Contact page of the website.
-- **index.html**: The homepage of the website.
-- **script.js**: JavaScript file to handle interactive elements.
-- **style.css**: Stylesheet for the design of the website.
+📂 .vscode
+  └── launch.json
+📂 assets
+  📂 css
+    └── styles.css
+  📂 img
+    └── sololearn-logo.png
+about.html
+contact.html
+index.html
+README.md
+
 
 ## 🛠️ How to Run the Project
 
@@ -44,7 +50,7 @@ The goal of this project is to design and develop a simple and functional websit
 
 ## 👥 Team Members
 
-- **Sawab Aziz Hussein**: Frontend Development
+- **Sawab Aziz Hussein**: Frontend Development + JavaScript
 - **Mohamed Haitham Rabee'**: Backend & JavaScript Development
 - **Dr. Goran Wnis Hamaali**: Project Supervisor
 
