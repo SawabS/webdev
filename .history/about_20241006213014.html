@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Web Engineering</title>\
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #1a1a1a; /* Slightly lighter dark background */
+            color: #e0e0e0; /* Light grey text for better readability */
+        }
+        header, footer {
+            background-color: #169ef4; /* Blue-ish header and footer */
+            text-align: center;
+            padding: 10px 0;
+            color: #ffffff; /* White text */
+        }
+        main {
+            padding: 20px;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-bottom: 20px;
+            border: 1px solid #444444; /* Subtle dark border */
+        }
+        th, td {
+            border: 1px solid #444444; /* Subtle dark border */
+            padding: 8px;
+            text-align: left;
+            color: #e0e0e0; /* Light grey text */
+        }
+        th {
+            background-color: #8056df; /* Purple-ish header background */
+        }
+        tr:nth-child(even) {
+            background-color: #2a2a2a; /* Slightly lighter background for even rows */
+        }
+        form {
+            max-width: 400px;
+            margin: 0 auto;
+            background-color: rgba(255, 255, 255, 0.05); /* Slightly transparent form background */
+            padding: 20px;
+            border: 1px solid #444444; /* Subtle dark border */
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(128, 86, 223, 0.5); /* Purple-ish glow */
+        }
+        input, textarea {
+            width: 100%;
+            padding: 10px;
+            margin: 5px 0;
+            box-sizing: border-box;
+            background-color: rgba(255, 255, 255, 0.1); /* Slightly transparent background for inputs */
+            border: 1px solid #444444; /* Subtle dark border */
+            color: #e0e0e0; /* Light grey text */
+        }
+        button[type="submit"] {
+            background-color: #f70155; /* Red-ish submit button */
+            color: #ffffff; /* White text */
+            padding: 10px;
+            border: none;
+            cursor: pointer;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(247, 1, 85, 0.5); /* Red-ish glow */
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>This is the contacts page</h1>
+    </header>
+    <main>
+        <table>
+            <thead>
+                <tr>
+                    <th>ID</th>
+                    <th>Name</th>
+                    <th>Email</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>1</td>
+                    <td>Sawab</td>
+                    <td>sawab1792@gmail.com</td>
+                </tr>
+                <tr>
+                    <td>2</td>
+                    <td>Mohammed</td>
+                    <td>kingmohamad2002@gmail.com</td>
+                </tr>
+            </tbody>
+        </table>
+        <form>
+            <input type="text" placeholder="Your Name" required>
+            <input type="email" placeholder="Your Email" required>
+            <textarea placeholder="Your Message" rows="4" required></textarea>
+            <button type="submit">Send</button>
+        </form>
+    </main>
+    <footer>
+        <p>This is the footer of the webpage!</p>
+    </footer>
+</body>
+</html>
