@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>webdev - About</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f9;
+            margin: 0;
+            padding: 0;
+            color: #333;
+        }
+        .header {
+            background-color: #333;
+            padding: 10px 20px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        img {
+            transition: transform 0.6s ease;
+        }
+
+        img:hover {
+            transform: scale(1.22) rotate(-200deg);
+        }
+
+        .header nav ul {
+            list-style: none;
+            margin: 0;
+            padding: 0;
+            display: flex;
+        }
+        .header nav ul li {
+            margin-right: 15px;
+        }
+        .header nav ul li a {
+            color: #fff;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        .header nav ul li a.active {
+            text-decoration: none;
+        }
+
+        .header nav ul li a:hover {
+            color: #ffa50c;
+        }
+
+        .header img {
+            height: 50px;
+        }
+        .header h1 {
+            color: #fff;
+        }
+        main {
+            padding: 20px;
+            text-align: center;
+        }
+        .contact-info table {
+            width: 100%;
+            margin-bottom: 20px;
+            border-collapse: collapse;
+        }
+        .contact-info table th, .contact-info table td {
+            padding: 10px;
+            border: 1px solid #ccc;
+        }
+        .contact-info table th {
+            background-color: #333;
+            color: #fff;
+        }
+        .contact-info table td {
+            background-color: #fff;
+        }
+        .contact-form h2 {
+            color: #007bff;
+            margin-bottom: 20px;
+        }
+        .contact-form form {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        .contact-form input, .contact-form textarea {
+            width: 100%;
+            max-width: 500px;
+            padding: 10px;
+            margin-bottom: 10px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+        .contact-form button {
+            padding: 10px 20px;
+            background-color: #007bff;
+            color: #fff;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        .contact-form button:hover {
+            background-color: #0056b3;
+        }
+        .footer {
+            background-color: #333;
+            color: #fff;
+            padding: 10px;
+            text-align: center;
+            position: relative;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <header class="header">
+        <nav>
+            <ul>
+                <li><a href="index.html" target="_blank">Home</a></li>
+                <li><a href="contact.html" class="active" target="_blank">Contact</a></li>
+                <li><a href="about.html" target="_blank">About</a></li>
+            </ul>
+        </nav>
+        <a href="index.html">
+            <img src="assets/img/sololearn-logo.png" alt="Sololearn Logo">
+        </a>
+        <h1>About</h1>
+    </header>
+    
+    <main>
+        <section class="contact-info">
+            <table>
+                <thead>
+                    <tr>
+                        <th>ID</th>
+                        <th>Name</th>
+                        <th>Email</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>1</td>
+                        <td>Sawab</td>
+                        <td>sawab1792@gmail.com</td>
+                    </tr>
+                    <tr>
+                        <td>2</td>
+                        <td>Mohammed</td>
+                        <td>kingmohamad2002@gmail.com</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+        <section class="contact-form">
+            <h2>Get in Touch</h2>
+            <form>
+                <input type="text" placeholder="Your Name" required>
+                <input type="email" placeholder="Your Email" required>
+                <textarea placeholder="Your Message" rows="4" required></textarea>
+                <button type="submit">Send</button>
+            </form>
+        </section>
+    </main>
+    
+    <footer class="footer">
+        <p>Thank you for visiting! Stay connected for more updates and learning resources on Sololearn and IT certifications.</p>
+    </footer>
+</body>
+</html>
