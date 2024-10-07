@@ -14,20 +14,6 @@ The goal of this project is to design and develop a simple and functional websit
 - **CSS**: Styling the website to ensure it’s responsive and visually appealing.
 - **JavaScript**: Adding interactivity to the website.
 
-## 📂 Repository Structure
-
-- **/.vscode**: Folder containing Visual Studio Code specific settings.
-  - `launch.json`: Configuration file for debugging and task running in VSCode.
-- **/assets/css**: Folder containing CSS styles for the website.
-  - `styles.css`: Stylesheet for the design of the website.
-- **/assets/img**: Folder containing image assets for the website.
-  - `sololearn-logo.png`: An image used on the website.
-- **about.html**: About page of the website.
-- **contact.html**: Contact page of the website.
-- **index.html**: The homepage of the website.
-- **README.md**: The file you're currently reading.
-
-
 ## 🛠️ How to Run the Project
 
 1. **Clone the repository** to your local machine:
