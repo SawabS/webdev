@@ -1,0 +1,122 @@
+/* Basic reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body and overall page styling */
+body {
+    font-family: Arial;
+    background-color: #333; /* Black background for dark theme */
+    color: #000; /* White text for contrast */
+    line-height: 1.4;
+}
+
+/* Image hover effect */
+img {
+    transition: transform 0.3s ease;
+}
+
+img:hover {
+    transform: scale(1.22) rotate(-50deg);
+}
+
+/* Header styling */
+.header {
+    text-align: center;
+    padding: 20px;
+}
+
+.header h1 {
+    color: #169cf0;
+    font-size: 2.5rem;
+}
+
+.header nav ul {
+    margin-top: 10px;
+}
+
+.header nav ul li {
+    display: inline-block;
+    margin: 0 15px;
+}
+
+.header nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 1.4rem;
+    transition: color 0.3s;
+}
+
+.header nav ul li a:hover {
+    color: #ffa50c;
+}
+
+/* Main section styling */
+.main {
+    padding: 30px;
+    background-color: #fff;
+}
+CED9-2847
+.main h2 {
+    color: #169cf0;
+}
+
+.main p {
+    margin-bottom: 20px;
+}
+
+.main a {
+    color: #169cf0;;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.main a:hover {
+    color: #ffa50c;
+}
+
+.main ul li {
+    margin-bottom: 10px;
+}
+
+/* Course section styling */
+section {
+    margin-bottom: 40px;
+}
+
+/* Footer styling */
+.footer {
+    padding: 20px;
+    text-align: center;
+    color: #fff;
+    font-size: 0.9rem;
+}
+
+.footer p {
+    margin: 10px 0;
+}
+
+/* Video styling */
+iframe {
+    border: 4px solid #169cf0;
+}
+
+/* Responsive design */
+@media (max-width: 768px) {
+    .header h1 {
+        font-size: 2rem;
+    }
+
+    .main iframe {
+        width: 100%;
+        height: auto;
+    }
+
+    .header nav ul li {
+        display: block;
+        margin: 10px 0;
+    }
+}
