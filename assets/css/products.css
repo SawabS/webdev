@@ -1,0 +1,51 @@
+.prmain {
+    background-color: white;
+    padding: 50px;
+}
+
+.productcontainer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+}
+
+.h1prpage {
+    text-align: center;
+    color: #ffa50c;
+}
+
+.h3prpage {
+    color: #169cf0;
+}
+
+.dimg {
+    padding-top: 50px;
+    transition: transform 0.8s ease;
+}
+
+.dimg:hover {
+    transform: scale(1.2) rotate3d(2,3,2, -20deg);
+}
+
+.rimg {
+    padding-top: 50px;
+    transition: transform 0.8s ease;
+}
+
+.rimg:hover {
+    transform: scale(1.4);
+}
+
+.raspimg {
+    padding-top: 50px;
+    transition: transform 0.8s ease;
+}
+
+.raspimg:hover {
+    transform: scale(1.6) rotate3d(5,5,10, -10deg);
+}
+
+.ulprpage {
+    margin-left: 30px;
+}

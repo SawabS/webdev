@@ -8,24 +8,24 @@
 /* Body and overall page styling */
 body {
     font-family: Arial;
-    background-color: #000000; /* Black background for dark theme */
-    color: #fff; /* White text for contrast */
+    background-color: #333; /* Black background for dark theme */
+    color: #000; /* White text for contrast */
     line-height: 1.4;
 }
 
 /* Image hover effect */
-img {
+.img1 {
     transition: transform 0.3s ease;
 }
 
-img:hover {
+.img1:hover {
     transform: scale(1.22) rotate(-50deg);
 }
 
 /* Header styling */
 .header {
     text-align: center;
-    padding: 20px;
+    padding: 10px;
 }
 
 .header h1 {
@@ -40,6 +40,7 @@ img:hover {
 .header nav ul li {
     display: inline-block;
     margin: 0 15px;
+
 }
 
 .header nav ul li a {
@@ -52,13 +53,16 @@ img:hover {
 
 .header nav ul li a:hover {
     color: #ffa50c;
+    text-decoration: underline;
+
 }
 
 /* Main section styling */
 .main {
     padding: 30px;
-    background-color: #111;
+    background-color: #fff;
 }
+
 
 .main h2 {
     color: #169cf0;
@@ -101,7 +105,7 @@ section {
 
 /* Video styling */
 iframe {
-    border: 4px solid #ffffff;
+    border: 4px solid #169cf0;
 }
 
 /* Responsive design */
@@ -119,4 +123,83 @@ iframe {
         display: block;
         margin: 10px 0;
     }
+}
+
+.container1{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+}
+
+.tanker{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: row;
+    margin: 100px;
+}
+
+.box1{
+    padding-right: 250px;
+    padding-left: 15px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+ }
+
+
+.box2 {
+    /*overflow: hidden;*/
+    text-align: center;
+    align-items: center;
+    width: 450px;
+    height: 650px;
+    padding: 20px;
+    border: 3px solid #333333;
+    border-radius: 6mm;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+    margin: 4px;
+}
+
+.h2o{
+    margin-left: -20px;
+    margin-right: -20px;
+    margin-top:-20px;
+    padding: 15px;
+    border-radius: 4mm;
+    font-size: 32px;
+    color: white;
+    background-color: #333333;
+    background-size: 300% 300%;
+}
+
+.productimg {
+    transition: transform 0.3s ease;
+}
+
+.productimg:hover {
+    transform: scale(1.22);
+}
+
+.prdesc{
+    text-align: left
+}
+
+@keyframes color {
+    0%{
+        background-position: 0 50%;
+    }
+    50%{
+        background-position: 100% 50%;
+    }
+    100%{
+        background-position: 0 50%;
+    }
+}
+
+.fake-button{
+    border-radius: 30px;
+    background: #333333;
+    padding: 15px;
 }

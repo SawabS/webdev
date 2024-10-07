@@ -1,38 +1,51 @@
 <!DOCTYPE html>
-
-<html>
-  <head>
-    <title>Web Engineering</title>
-  </head>
-
-  <body>
-    <header>
-      <h1>This is the contacts page</h1>
+<head>
+    <title>webdev - About</title>
+</head>
+<body>
+    <header class="header">
+        <nav>
+            <ul>
+                <li><a href="index.html" target="_blank">Home</a></li>
+                <li><a href="contact.html" class="active" target="_blank">Contact</a></li>
+                <li><a href="about.html" target="_blank">About</a></li>
+                <li><a href="products.html" target="_blank">Products</a></li>
+            </ul>
+        </nav>
+        <a href="index.html">
+            <img src="assets/img/sololearn-logo.png" alt="Sololearn Logo" height="200">
+        </a>
+        <h1>About</h1>
     </header>
+    
     <main>
-        <table>
-            <thead>
-                <th>ID</th>
-                <th>Name</th>
-                <th>Email</th>
-            </thead>
-            <tbody>
-                <tr>
-                    <td>1</td>
-                    <td>Sawab</td>
-                    <td>sawab1792@gmail.com</td>
-                </tr>
-                <tr>
-                    <td>2</td>
-                    <td>Mustafa</td>
-                    <td>mustafahadad34@gmail.com</td>
-                </tr>
-            </tbody>
-        </table>
-    </main>    
-  </body>
-
-  <footer>
-    <p>This is the footer of the webpage!</p>
-  </footer>
+        <section class="contact-info">
+            <table>
+                <thead>
+                    <tr>
+                        <th>ID</th>
+                        <th>Name</th>
+                        <th>Email</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>1</td>
+                        <td>Sawab</td>
+                        <td>sawab1792@gmail.com</td>
+                    </tr>
+                    <tr>
+                        <td>2</td>
+                        <td>Mohammed</td>
+                        <td>kingmohamad2002@gmail.com</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+    </main>
+    
+    <footer class="footer">
+        <p>Thank you for visiting! Stay connected for more updates and learning resources on Sololearn and IT certifications.</p>
+    </footer>
+</body>
 </html>
